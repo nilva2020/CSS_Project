@@ -1,0 +1,187 @@
+/* retira o fundo branco 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+*/
+/* esconde a barra de rolagem
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+*/
+
+body {
+    margin: 0;
+    font-family: Tahoma;
+}
+
+/* estilização global*/
+.secao {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.paragrafo {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 28px;
+    margin: 10px auto;
+    width: 980px;
+}
+
+/* ===  1ª seção === */
+.topo {
+    background-image: url(../img/background_home.jpg);
+    background-size: cover;
+}
+
+.topo img {
+    width: 200px;
+}
+
+.paragrafo-topo {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+/* secao nav sobre,serviços,corretores,contato */
+.link-topo {
+    color: #0b0466;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 10px;
+    border-bottom: 2px solid #0b0466;
+}
+
+/* ===  2ª seção === */
+
+.banner {
+    padding-top: 0;
+    margin-top: 50px;
+
+
+}
+
+/* ===  estilos para destaques === */
+
+span {
+    font-weight: bold;
+}
+
+/* ===  3ª seção === */
+
+h1 {
+    margin-bottom: 5px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+h2 {
+    font-weight: normal;
+    color: #0b0b0b;
+    margin-top: 0;
+}
+
+/* casa e corretores*/
+.imagem {
+    width: 350px;
+}
+
+
+.texto-branco {
+    color: #ffffff;
+}
+
+/* ===  4ª seção === */
+
+/* maps */
+.servicos,
+.contato {
+    background:  #e9e48f;
+}
+
+.maps {
+    font-weight: bold;
+}
+
+.paragrafo-servicos {
+    color: #0b0b0b;
+    line-height: 32px;
+    width: 900px;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.lista-servicos {
+    width: 135px;
+    margin: 40px auto 40px;
+}
+
+.item-lista-servicos {
+    font-size: 22px;
+    line-height: 42px;
+    text-align: left;
+    color: #0b0b0b;
+}
+
+/* ===  6ª seção === */
+
+/*fale conosco */
+
+.paragrafo-contato {
+    color: #0b0b0b;
+    font-weight: bold;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #25d366;
+    border-radius: 5px;
+   
+}
+
+.lista-contato {
+    width: 210px;
+    list-style: none;
+    margin: 40px auto 40px;
+}
+
+.item-lista-contato {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.link-contato {
+   
+    color: #0f13ee;
+    padding: 2px 5px;
+    border-radius: 10px;
+}
+
+
+/* whatsapp */
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    /*cor do icone */
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2 px #888;
+    z-index: 1000;
+    /* sobrepor qualquer elemento */
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+    /* centralizar o icone whatsapp */
+}

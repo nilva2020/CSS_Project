@@ -1,47 +1,47 @@
-# <center>PROJETOS CSS</center>
-<center><img src="img/css.png" width="400px" height="300px"></center>
+# <center>Projeto Barbershop Star Club</center>
 
-## OBJETIVOS:
+![Barbearia](img/barberstart.png)
+---
+## PROJETO & OBJETIVO:
 
-Neste Repositório têm o objetivo de demonstrar as aplicações dos estudos de CSS e CSS3.
+__Tema do estudo__: Barbearia
+
+__Projeto__:  Contém uma única página;
+
+    Objetivo:
+
+
+  __Métodos__:
+---
+
+### Problema estudado:
 
 
 ---
-## Estrutura dos projetos:
+## Arquitetura:
+ <center>Estrutura de Pasta:</center>
 
-    🪧 Páginas web estáticas:  
-
-        * Receita_bolo - Introdução CSS[elemento, propriedade e valores];
-        * barbearia;
-    
-    🪧 Páginas Web Autocontida:  
-
-        * venda-livro
-
-    🪧 Páginas Web Dinâmicas:  
-
-        * Em construções, aguardem!!!!
-
-
----
-
+    📁 Projeto-Barbearia
+    |
+    |- 📁 barbearia
+    |   |
+    |   |- 📁 css
+    |       |- 📑 style.css
+    |   |- 📁 img
+    |       |- 📑 imagens diversas
+    |       
+    |- 📑 index.html
+    |- 📑 readme.md
 ## Tecnologia:
 ![](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
 ![](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)  
 
----
+___
+
 ### Anotações Gerais:
-
-🚨🚨🚨 Qual a diferença entre CSS e CSS3?
-
-CSS  é a versão básica e não suporta design responsivo, enquanto CSS3 é a versão mais recente e suporta design responsivo, possui modules.
-
-Existem muitas vantagens na nova versão do CSS3, irei demonstrar em cada projeto.
 
 ---
 ## Contato:
-
-
 
 <center><img src="https://gifmania.com.br/wp-content/uploads/2020/12/fala_comigo.gif" width="100px" height="100px"></center>
 
@@ -51,7 +51,6 @@ Existem muitas vantagens na nova versão do CSS3, irei demonstrar em cada projet
 
 <br>
 
-
  <left><a href="mailto:piresnilva@gmail.com" target="_blank">
 <img text-align="right" src="img/email.png" alt="e-mail"  width="50px" height="50px"></a>  </left>
 
@@ -60,5 +59,3 @@ Existem muitas vantagens na nova versão do CSS3, irei demonstrar em cada projet
 ___
 
 <center>🔸<img src="img/mpnf.png" width="20px" height="20px"> 🔸 Developer 🔸 Nilva Pires🔸 2023</center>
-
-

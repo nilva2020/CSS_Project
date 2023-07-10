@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.secao-topo {
+    background-image: url("../img/flower.png");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+    text-align: center;
+    padding: 50px;
+}
+
+h1, h2 {
+    margin: 0 auto;
+    color: antiquewhite;
+    padding: 10px;
+    width: 300px;
+   
+}
+
+h1 {
+    background-color: #000;
+    border-radius:10px 50px 0px 0px;
+}
+
+h2 {
+    background-color: rgb(236, 8, 8);
+    border-radius:0px 0px 10px 50px;
+}
+
+h3 {
+    font-style: italic;
+
+}
+
+.secao-conteudo {
+    width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.secao-conteudo img {
+    width: 200px;
+    height: : 250px;
+
+}
+
+#anturio, #misto, #rosas {
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
+
+.secao-divulgacao {
+    background-image: url('../img/lirio.png');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+}
+
+p {
+    line-height: 26px;
+}
+
+span {
+    background-color: rgb(86, 224, 12);
+    color: #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.rodape {
+    background-color: antiquewhite;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    height: 30px;
+}
