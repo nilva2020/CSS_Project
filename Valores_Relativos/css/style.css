@@ -17,18 +17,32 @@
     font-size: 20px;
 }
 
+.pages{
+
+    background: #e9f0b6;
+    text-align: center;
+    height: 38px;
+    line-height: 35px; /* altura da linha da escrita*/
+ 
+}
+.links li {
+    display: inline;/* elementos criados ao lado de outro elemento */
+    padding: 0 20px;/*distancia entre os elementos*/
+}
+
 body {
     font-family: sans-serif;
 }
-span{
-    font-weight: bold;
+
+h2 {
+    text-align: center;
 }
 .area {
     width: calc(100% - 70px);
     margin: 20px 35px;
 }
 
-.apresentacao img, .area p, .area-imagens {
+.apresentacao img, .area p, .area-tres-imagens {
     width: 100%;
     margin: 15px 0;
 }

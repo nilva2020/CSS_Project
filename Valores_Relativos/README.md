@@ -7,14 +7,17 @@
 
 __Tema do estudo__: Parques de Belo Horizonte-Mg;
 
-__Projeto__:  Contém uma única página;
+__Projeto__:  Contém  01 página principal e demais páginas extras;
 
     Objetivo:  é modificar elementos HTML através do CSS utilizando as seguintes propriedades:
-      * Largura (Width);
-      * Altura (Height);
+      * Largura (Width) - Min-Width & Max-Width;
+      * Altura (Height) Min- Height & Max-Height;
       * Espaçamento Interno (Padding);
       * Margem (Margin);
-      * Borda (Border)
+      * Borda (Border);
+      * Overflow - overflow-x e overflow-y;
+      * Display - Inline, Block e none;
+      * Opacity: Opaco, semi-transparente e Invisível
 
   __Métodos__:
 
@@ -23,7 +26,14 @@ __Projeto__:  Contém uma única página;
     * Visibilidade do elemento - Visivel e/ou oculto;
     * Adicionar sombra ao elemento.
 
- 
+ __Pages extras__:
+
+__MinMax:__ aborda a utilização das propriedades min-width e max-width & min-height e max-height;
+
+__Overflow:__ aborda a utilização das propriedades do Overflow.
+
+__display:__ aborda a utilização das propriedade do display, estilizando os elementos  dos links lado a lado.
+
 
 ### Problema estudado:
 Após a análise  observou-se que a  página  exibia uma imagem com largura fixa causando os problemas listado abaixo:
@@ -51,8 +61,16 @@ img {
     |   |
     |   |- 📁 css
     |       |- 📑 style.css
+    |       |- 📑 style1.css
+    |       |- 📑 style2.css
+    |       |- 📑 style3.css
+    |       |- 📑 style4.css
     |   |- 📁 img
     |       |- 📑 imagens diversas
+    |   |- 📁 pages
+    |       |- 📑 display.html
+    |       |- 📑 minmax.html
+    |       |- 📑 overflow.html
     |
     |- 📑 index.html
     |- 📑 readme.md
@@ -88,10 +106,32 @@ Sintaxe:
                 height: calc((100vw - 40px) / 3);
                 margin: calc(3% - 40px);
             }
+  OBS: Através de valores relativos e do calc podemos construir visuais mais dinâmicos, capazes de se adaptar aos mais diversos tipos de página e tela sem problemas. O uso de valores relativos é essencial para quem deseja construir páginas que funcionem em uma grande variedade de dispositivos.
 
+  Overflow - garante que o conteúdo respeite as dimensões do elemento. Criando uma barra de rolagem que permite a leitura do texto sem ultrapassar o tamanho.
+       .area {
+        overflow: scroll;
+       }
+       ou
+       .area {
+        overflow: auto; (exibirá barra de rolagem somente se o conteudo ultrapassar o tamanho determindado)
+       }
+
+      
+       .area {
+        overflow-x: scroll; (adiciona uma barra de rolagem horizontal)
+       }
+       .area {
+        overflow-y: scroll; (adiciona uma barra de rolagem vertical)
+       }
+__OBS:__ estas propriedades podem ser simplificadas através do overflow.
+
+        .area {
+        oferflow: auto scroll;
+        }
+        auto = horizontal
+        scroll = vertical
 ## Contato:
-
-
 
 <center><img src="https://gifmania.com.br/wp-content/uploads/2020/12/fala_comigo.gif" width="100px" height="100px"></center>
 
