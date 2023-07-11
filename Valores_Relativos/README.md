@@ -17,7 +17,9 @@ __Projeto__:  Contém  01 página principal e demais páginas extras;
       * Borda (Border);
       * Overflow - overflow-x e overflow-y;
       * Display - Inline, Block e none;
-      * Opacity: Opaco, semi-transparente e Invisível
+      * Opacity - Opaco, semi-transparente e Invisível
+      * Box-sizing - border-box,
+      * Box-shadow - 
 
   __Métodos__:
 
@@ -65,12 +67,14 @@ img {
     |       |- 📑 style2.css
     |       |- 📑 style3.css
     |       |- 📑 style4.css
+    |       |- 📑 style5.css
     |   |- 📁 img
     |       |- 📑 imagens diversas
     |   |- 📁 pages
     |       |- 📑 display.html
     |       |- 📑 minmax.html
     |       |- 📑 overflow.html
+    |       |- 📑 box-sizing.html
     |
     |- 📑 index.html
     |- 📑 readme.md
@@ -88,7 +92,7 @@ __VALOR RELATIVO__ = É definido com base em outro elemento (elemento pai);
 __VALORES PERCENTUAIS__ % tem o mesmo peso de valores em pixel.
 Sintaxe: 
 
-__vm__ = é uma medida de valor relativo que se refere a LARGURA da tela, cada 1vw corresponde a 1% da largura da tela.
+__vw__ = é uma medida de valor relativo que se refere a LARGURA da tela, cada 1vw corresponde a 1% da largura da tela.
 Sintaxe:
 
 __vh__ = é uma medida de valor relativo que se refere a ALTURA  da tela.
@@ -108,7 +112,22 @@ Sintaxe:
             }
   OBS: Através de valores relativos e do calc podemos construir visuais mais dinâmicos, capazes de se adaptar aos mais diversos tipos de página e tela sem problemas. O uso de valores relativos é essencial para quem deseja construir páginas que funcionem em uma grande variedade de dispositivos.
 
-  Overflow - garante que o conteúdo respeite as dimensões do elemento. Criando uma barra de rolagem que permite a leitura do texto sem ultrapassar o tamanho.
+__Min-Width & Max-Width__ 
+
+                .area-noticias {
+                    width: 100%;
+                    min-width: 600px; = largura  mínimo
+                    max-width: 1024px; = largura máximo
+                }
+
+__Min-height & Max-height__ 
+                img {
+                        height: 100%
+                        min-height: 600px; altura mínima
+                        max-height: 900px; altura máxima
+                }
+
+__Overflow__ - garante que o conteúdo respeite as dimensões do elemento. Criando uma barra de rolagem que permite a leitura do texto sem ultrapassar o tamanho.
        .area {
         overflow: scroll;
        }
@@ -127,10 +146,35 @@ Sintaxe:
 __OBS:__ estas propriedades podem ser simplificadas através do overflow.
 
         .area {
-        oferflow: auto scroll;
+        overflow: auto scroll;
         }
         auto = horizontal
         scroll = vertical
+
+__Box-sizing__ Com o box-sizing:border-box, as medidas do elemento passam a ser respeitadas e os valores de padding e border passam a ser incluídos no valor da largura.
+
+            div{
+                box-sizing: border-box;
+            }
+
+
+__Box-shadow__ O box-shadow é uma propriedade do CSS que permite adicionar sombra em volta de elementos.
+
+            img {
+                box-shadow: 20px 10px 5px 30px red;
+            }
+            OBS: 20px representa o deslocamento X = horizontal
+                 10px representa o deslocamento y = vertical
+                  5px representa o desfoque à sombra(quanto maior o valor maior o desfoque)
+                30px  representa a expansão(quando adiciona uma expansão a sombra aumenta em todas as direções) é utilizada juntamente com o desfoque.
+                 red  representa a cor da sombra, exemplos de formatos nominal, RGB e Hexadecimal.
+
+            div{
+                box-shadow: 20px 10px 5px 30px red isent;
+            }
+               inset  representa a sombra na frente do elemento com a expansao informada, a partir das bordas do elemento.
+               OBS: so funcionará com divs, spans e demais elementos excetos imagens.
+
 ## Contato:
 
 <center><img src="https://gifmania.com.br/wp-content/uploads/2020/12/fala_comigo.gif" width="100px" height="100px"></center>
