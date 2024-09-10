@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Topo e Rodapé  */
+header,
+footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #A2AD91;
+    color: #3A2D32;
+    box-sizing: border-box;
+}
+
+/* corpo */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fffff0;
+    color: #3A2D32;
+
+}
+
+
+/*imagem logo no topo*/
+.logo-marca {
+    width: 80px;
+    height: 100px;
+}
+
+/* navegação*/
+h1 {
+    text-align: left;
+    margin: 30px 0;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-home {
+    text-align: left;
+    font-size: 10px;
+    background: #dbb4ad;
+    color: #3A2D32;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-home a {
+    font-family: 'Courier New', Courier, monospace;
+    color: floralwhite;
+    font-size: 15px;
+}
+
+/* capa - seçoes do layout*/
+main {
+    width: 100%;
+}
+
+/*imagem de capa*/
+.imagem-capa {
+    width: 100%;
+
+}
+
+/* apresentação */
+h2 {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 25px;
+}
+
+
+p {
+    line-height: 32px;
+}
+
+/* p:last-of-type estiliza o ultimo paragrafo da parte Sobre nós*/
+/*chamou o primeiro nome da classe, depois p do paragrafo e aplicou o pseudo-classe estrutural last-of-type */
+.quem-somos p:last-of-type {
+    display: inline;
+    background: #dbb4ad;
+    padding: 10px 5px;
+    color: #3A2D32;
+    font-weight: bold;
+
+}
+
+.mais-informacoes {
+    display: block;
+    margin: 25px 0;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 2px solid #ed5a0e;
+}
+
+/* Seção Serviços */
+.limita-area {
+    max-width: 1024px;
+}
+
+.servicos-avaliados {
+    width: 100%;
+    display: flex;
+    margin: 25px 0px;
+    overflow-x: scroll;
+}
+
+.img-servicos {
+    width: 350px;
+
+}
+
+
+.img-servicos img:first-child {
+    width: 100%;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px;
+}
+
+figcaption,
+figure span {
+    margin: 12px 0;
+    padding: 12px 5px;
+    text-align: center;
+    background: #A2AD91;
+    color: #3A2D32;
+    font-weight: bold;
+}
+
+/* Tabela de serviços */
+
+table {
+    width: 100%;
+    margin: 25px 0;
+    background: #dfdfdf;
+}
+
+thead {
+    background: #dbb4ad;
+
+
+}
+
+th,
+td {
+    padding: 6px;
+    color: #3A2D32;
+}
+
+/*estilizou linhas ímpares/nth-of-type(odd)  - odd= posição ímpar */
+tbody tr:nth-of-type(odd) {
+    background: #ffe3dc;
+}
+
+/*estilizou linhas pares/nth-of-type(even)  - even= posição par */
+tbody tr:nth-of-type(even) {
+    background: #dbb4ad;
+}
+
+/* links pacotes */
+li, a {
+    display: flex; 
+    align-items: center;
+    color:#A2AD91
+
+}
+
+.link-pacotes a:visited{
+color: #ed5a0e;
+}
+
+/*estiliza o botão para indicar o link */
+a::before {
+    content: "Link";
+    background: #3A2D32;
+    color: #fffff0;
+    padding: 0px 10px;
+    margin: 6px 6px 0 0;
+}
+
+/* agenda */
+#agenda {
+    background-color: #dbb4ad;
+    color: #3A2D32;
+}
