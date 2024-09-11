@@ -177,8 +177,6 @@ __Box-shadow__ O box-shadow é uma propriedade do CSS que permite adicionar somb
 
 ## Contato:
 
-<center><img src="https://gifmania.com.br/wp-content/uploads/2020/12/fala_comigo.gif" width="100px" height="100px"></center>
-
 
 <widht><a href="https://www.linkedin.com/in/nilva-pires" target="_blank">
 <img text-align="left"  src="img/linkedin.png" alt="linkedin" width="40px" height="40px"></a></widht>  
@@ -193,4 +191,4 @@ __Box-shadow__ O box-shadow é uma propriedade do CSS que permite adicionar somb
 
 ___
 
-<center>🔸<img src="img/mpnf.png" width="20px" height="20px"> 🔸 Developer 🔸 Nilva Pires🔸 2023</center>
+<center>Developing since | 2023</center> 

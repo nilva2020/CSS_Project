@@ -1,7 +1,14 @@
 # <center>PROJETOS CSS</center>
 <center><img src="img/css.png" width="400px" height="300px"></center>
 
-## OBJETIVOS:
+
+
+<br>
+
+
+![](https://img.shields.io/badge/license-MIT-blue)
+
+## OBJETIVO:
 
 Neste Repositório têm o objetivo de demonstrar as aplicações dos estudos de CSS e CSS3.
 
@@ -39,12 +46,7 @@ CSS  é a versão básica e não suporta design responsivo, enquanto CSS3 é a v
 Existem muitas vantagens na nova versão do CSS3, irei demonstrar em cada projeto.
 
 ---
-## Contato:
-
-
-
-<center><img src="https://gifmania.com.br/wp-content/uploads/2020/12/fala_comigo.gif" width="100px" height="100px"></center>
-
+## Autora:
 
 <widht><a href="https://www.linkedin.com/in/nilva-pires" target="_blank">
 <img text-align="left"  src="img/linkedin.png" alt="linkedin" width="40px" height="40px"></a></widht>  
@@ -59,6 +61,4 @@ Existem muitas vantagens na nova versão do CSS3, irei demonstrar em cada projet
 
 ___
 
-<center>🔸<img src="img/mpnf.png" width="20px" height="20px"> 🔸 Developer 🔸 Nilva Pires🔸 2023</center>
-
-
+<center>Developing since | 2023</center> 
