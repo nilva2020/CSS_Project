@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 60px;
+  height: 20px;
+}
+
+.nome {
+  font-size: 18px;
+  color: brown;
+}
+
+.slogan {
+  font-size: 10px;
+  color: brown;
+}
+
+.links-topo {
+  border-radius: gray;
+}
+
+.banner-topo {
+    width: ;
+    height: ;
+    padding: auto;
+}
+
+
+.servicos-titulo {
+  font-size: 30px;
+  text-align: center;
+}
+
+li{
+    font-size: 18px;
+    color: brown;
+}
+.imagem-servicos {
+  width: 280px;
+  height: 350px;
+}
